@@ -31,13 +31,12 @@ body {
   object-fit: cover;
   cursor: pointer;
   transition: all 0.3s ease;
-  transform: scale(1);
   filter: drop-shadow(0 0 0.75rem #000);
   box-shadow: 0 0 0.75rem #000;
 }
 
 .pp:hover img {
-  transform: scale(0.95);
+  transform: scale(0.9) !important;
 }
 
 .bottom {
